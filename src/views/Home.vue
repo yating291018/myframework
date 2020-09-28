@@ -1,18 +1,22 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Button @click="test(1)"></Button>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import { isNull } from '@/common/utils'
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    Button: () => import('@/components/Button.vue')
+  },
+  methods: {
+    test (autoparam) {
+      isNull('11111')
+      console.log('autoparam', autoparam)
+    }
   }
 }
 </script>

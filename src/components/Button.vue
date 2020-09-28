@@ -1,13 +1,12 @@
 <template>
-  <div class="container">
-  </div>
+  <button @click="handler">点击</button>
 </template>
 
 <script>
-import { isNull } from '@/common/utils'
 export default {
   data () {
     return {
+
     }
   },
   components: {
@@ -15,8 +14,8 @@ export default {
   created () {},
   mounted () {},
   methods: {
-    test () {
-      isNull('111')
+    handler () {
+      this.$emit('click')
     }
   }
 }

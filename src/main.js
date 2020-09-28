@@ -1,12 +1,6 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
-
-Vue.config.productionTip = false
-
-new Vue({
-  router,
-  store,
-  render: h => h(App)
-}).$mount('#app')
+import runApp from '@HU/app/index'
+import '@/plugins'
+runApp().then(res => {
+}).catch(err => {
+  console.log('err', err)
+})
