@@ -1,16 +1,23 @@
 <template>
   <div class="home">
-    <Button @click="test(1)"></Button>
+    <!-- <Button @click="test(1)"></Button> -->
+    <div class="container">
+      fdsfsafsafasfdasfdsaf
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import { isNull } from '@/common/utils'
 export default {
   name: 'Home',
   components: {
-    Button: () => import('@/components/Button.vue')
+    // Button: () => import('@/components/Button.vue')
+  },
+  mounted () {
+    this.$toast({
+      message: '222222'
+    })
   },
   methods: {
     test (autoparam) {
@@ -20,3 +27,6 @@ export default {
   }
 }
 </script>
+<style lang="less">
+@import './1.less';
+</style>

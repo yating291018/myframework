@@ -64,7 +64,7 @@
             loader: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/cache-loader/dist/cjs.js',
             options: {
               cacheDirectory: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/.cache/vue-loader',
-              cacheIdentifier: '0a851aa3'
+              cacheIdentifier: '7271d956'
             }
           },
           /* config.module.rule('vue').use('vue-loader') */
@@ -75,7 +75,7 @@
                 whitespace: 'condense'
               },
               cacheDirectory: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/.cache/vue-loader',
-              cacheIdentifier: '0a851aa3'
+              cacheIdentifier: '7271d956'
             }
           }
         ]
@@ -842,7 +842,7 @@
               },
               /* config.module.rule('less').oneOf('vue-modules').use('less-loader') */
               {
-                loader: 'less-loader',
+                loader: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/less-loader/dist/cjs.js',
                 options: {
                   sourceMap: false
                 }
@@ -881,7 +881,7 @@
               },
               /* config.module.rule('less').oneOf('vue').use('less-loader') */
               {
-                loader: 'less-loader',
+                loader: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/less-loader/dist/cjs.js',
                 options: {
                   sourceMap: false
                 }
@@ -923,7 +923,7 @@
               },
               /* config.module.rule('less').oneOf('normal-modules').use('less-loader') */
               {
-                loader: 'less-loader',
+                loader: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/less-loader/dist/cjs.js',
                 options: {
                   sourceMap: false
                 }
@@ -961,7 +961,7 @@
               },
               /* config.module.rule('less').oneOf('normal').use('less-loader') */
               {
-                loader: 'less-loader',
+                loader: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/less-loader/dist/cjs.js',
                 options: {
                   sourceMap: false
                 }
@@ -1153,7 +1153,7 @@
             loader: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/cache-loader/dist/cjs.js',
             options: {
               cacheDirectory: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/.cache/babel-loader',
-              cacheIdentifier: 'ffbc5592'
+              cacheIdentifier: '7ab258dc'
             }
           },
           /* config.module.rule('js').use('babel-loader') */
@@ -1181,7 +1181,7 @@
                 '.vue'
               ],
               cache: true,
-              cacheIdentifier: '16f5c88b',
+              cacheIdentifier: '4a03329a',
               emitWarning: false,
               emitError: false,
               eslintPath: '/Users/yuangong/Documents/projectdemo/myframework/node_modules/eslint',

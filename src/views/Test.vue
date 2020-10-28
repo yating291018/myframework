@@ -1,14 +1,15 @@
 <template>
   <div class='container'>
-    <tuhu-transfer
+    <!-- <tuhu-transfer
       :originalData='transferData'
       :targetDataPar="targetDataPar"
-    ></tuhu-transfer>
+    ></tuhu-transfer> -->
+    <th-pc-button @click="onClick"></th-pc-button>
   </div>
 </template>
 
 <script>
-import tuhuTransfer from './transfer'
+// import tuhuTransfer from './transfer'
 export default {
   data () {
     return {
@@ -211,11 +212,12 @@ export default {
     }
   },
   components: {
-    tuhuTransfer
+    // tuhuTransfer
+    ThPcButton: () => import('@/components/ThPcButton')
   },
   created () {},
   mounted () {
-    this.init()
+    // this.init()
   },
   methods: {
     init () {
@@ -227,6 +229,9 @@ export default {
         }
         this.transferData.push(obj)
       })
+    },
+    onClick () {
+      console.log('click me')
     }
   }
 }
