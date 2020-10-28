@@ -12,7 +12,6 @@ import { isNull } from '@/common/utils'
 export default {
   name: 'Home',
   components: {
-    // Button: () => import('@/components/Button.vue')
   },
   mounted () {
     this.$toast({
