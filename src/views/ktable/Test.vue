@@ -50,8 +50,8 @@ export default {
     }
   },
   components: {
-    KTable: () => import('./ktable/KTable'),
-    KTableItem: () => import('./ktable/KTableItem')
+    KTable: () => import('./KTable'),
+    KTableItem: () => import('./KTableItem')
   },
   created () {},
   mounted () {},
