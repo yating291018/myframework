@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import Modal from '@/views/extend/modal'
 import ViewUI from 'view-design'
 import 'view-design/dist/styles/iview.css'
 import '@/components/svg'
@@ -10,3 +11,4 @@ import '@/assets/reset.css'
 // import Toast from '@/components/toast'
 // Vue.use(Toast)
 Vue.use(ViewUI)
+Vue.use(Modal)

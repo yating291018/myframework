@@ -50,6 +50,14 @@ const routes = [
   {
     path: '/stack',
     component: () => import('@/views/stack/Stack.vue')
+  },
+  {
+    path: '/modal',
+    component: () => import('@/views/extend/index.vue')
+  },
+  {
+    path: '/echart',
+    component: () => import('@/views/echarts/Index.vue')
   }
 ]
 
